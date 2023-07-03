@@ -54,7 +54,20 @@ export default class Pdff extends React.Component<IPdffProps, {}> {
       });
     }
   };
+   #thiswillgenratepdfinalternatewindow
+
+   /*generatePDF = () => {
+    const element = document.querySelector('#pdf-content');
   
+    if (element) {
+      const pdfOptions = {
+        output: 'dataurlnewwindow'
+      };
+  
+      html2pdf().from(element).set(pdfOptions).save();
+    }
+  };
+*/
   
   
   
